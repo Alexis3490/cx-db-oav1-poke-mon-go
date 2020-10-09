@@ -34,6 +34,7 @@ app.get('/pokemons/:id', async (req, res) => {
   }
 });
 
+
 app.post('/pokemons', async (req, res) => {
   let list= await Pokemon.find({})
   const {path}= req.body
