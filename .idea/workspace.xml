@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f26947e2-4a27-4266-a24a-28e761578d22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+  </component>
+  <component name="ProjectId" id="1iawNiCq6nyQyNymmRJYCpJ4Dut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back/src" />
+      <recent name="$PROJECT_DIR$/front" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.back/Dockerfile">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="back/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="back/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongo: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongo" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.react-app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="react-app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.back/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml.react-app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.mongo: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f26947e2-4a27-4266-a24a-28e761578d22" name="Default Changelist" comment="" />
+      <created>1602158972513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602158972513</updated>
+      <workItem from="1602158973564" duration="8665000" />
+      <workItem from="1602186621338" duration="4920000" />
+      <workItem from="1602225823328" duration="39415000" />
+      <workItem from="1602275678133" duration="617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="700" y="395" key="#ESLint" timestamp="1602159414633">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="700" y="395" key="#ESLint/1680.23.2560.1417/0.23.1680.947@0.23.1680.947" timestamp="1602159414633" />
+    <state x="303" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602189330445">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="303" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.2560.1417/0.23.1680.956@0.23.1680.956" timestamp="1602189330445" />
+    <state x="460" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602229155077">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="460" y="302" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1602167009711" />
+    <state x="460" y="303" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.2560.1417/0.23.1680.952@0.23.1680.952" timestamp="1602229155077" />
+    <state width="498" height="449" key="SwitcherDM" timestamp="1602245919281">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.23.1680.944@0.23.1680.944" timestamp="1602226060365" />
+    <state width="498" height="449" key="SwitcherDM/1680.23.2560.1417/0.23.1680.952@0.23.1680.952" timestamp="1602245919281" />
+    <state x="1680" y="23" width="2560" height="952" key="dock-window-1" timestamp="1602245591374">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1680" y="23" width="2560" height="952" key="dock-window-1/1680.23.2560.1417/0.23.1680.952@0.23.1680.952" timestamp="1602245591374" />
+    <state x="503" y="229" width="672" height="682" key="search.everywhere.popup" timestamp="1602272668864">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="503" y="228" width="672" height="678" key="search.everywhere.popup/1680.23.2560.1417/0.23.1680.949@0.23.1680.949" timestamp="1602169472117" />
+    <state x="503" y="229" width="672" height="682" key="search.everywhere.popup/1680.23.2560.1417/0.23.1680.952@0.23.1680.952" timestamp="1602272668864" />
+    <state x="503" y="230" width="672" height="684" key="search.everywhere.popup/1680.23.2560.1417/0.23.1680.956@0.23.1680.956" timestamp="1602256354018" />
+  </component>
+</project>

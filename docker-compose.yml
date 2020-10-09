@@ -1,0 +1,30 @@
+version: '3'
+services:
+  web:
+    container_name: react-web-app
+    build: ./front
+    ports:
+      - '80:80'
+    depends_on:
+      - api
+
+  api:
+    container_name: app-node-container
+    build: ./back
+    environment:
+      - HOST=localhost
+      - PORT=4242
+      - DATABASE_URI=mongodb://mongo:27017/database
+    ports:
+      - '8080:8080'
+    depends_on:
+      - mongo
+  mongo:
+    container_name: app-mongo-container
+    image: mongo
+    environment:
+      - MONGO_DATABASE=database
+      - MONGO_ROOT_USERNAME=root
+      - MONGO_ROOT_PASSWORD=toor
+    ports:
+      - '27017:27017'
