@@ -3,6 +3,7 @@ FROM node:latest as build
 WORKDIR /app
 COPY . /app
 RUN yarn install
+RUN yarn add trunx
 RUN yarn run build
 
 # production environment
