@@ -1,0 +1,47 @@
+# Pokemon Go
+
+
+## Download project
+
+- git clone https://github.com/Alexis3490/cx-db-oav1-poke-mon-go.git
+
+## Launching with docker compose
+
+- docker-compose up -d or docker-compose up
+
+## Connect to express with docker
+
+### All router in express
+
+#### Route with the GET Method
+
+- no parameters in body
+- http://localhost:8080/pokemons (list of all pokemons)
+
+- no parameters in body
+- http://localhost:8080/pokemons/:id (list of pokemons by id)
+
+#### Route with the POST Method
+
+- parameters is path with data pokemon.json
+- http://localhost:8080/pokemons (add all pokemons)
+
+#### Route with the DELETE Method
+
+- no parameters in body
+- http://localhost:8080/pokemons/:id (delete of pokemon by id)
+
+#### Route with the PUT Method
+
+- parameters are information want to modify with pokemon
+- http://localhost:8080/pokemons/:id (modify of pokemon by id)
+
+## Connection to react with docker 
+
+### All router
+
+- http://localhost/pokemons (list of all pokemon)
+
+- http://localhost/pokemons/:id (details of pokemon by id)
+
+- http://localhost/pokemons/edit/:id (modified details of pokemon by id)
