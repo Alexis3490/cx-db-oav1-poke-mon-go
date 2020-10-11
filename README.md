@@ -9,6 +9,9 @@
 
 - `docker-compose up -d`or `docker-compose up`
 
+## Before request postman
+Be careful before launching get/post/put/delete requests on postman. You have to do the post on postman or launch the react with the url : http://localhost/pokemons
+
 ## Connect to express with docker
 
 ### All router in express
