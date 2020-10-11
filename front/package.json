@@ -16,6 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "trunk": "^1.1.0",
+    "trunx": "^0.34.1",
     "typescript": "~3.7.2"
   },
   "scripts": {

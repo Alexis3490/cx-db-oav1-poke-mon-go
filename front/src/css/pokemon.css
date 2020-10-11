@@ -1,0 +1,110 @@
+.title {
+    font-size: 45px;
+    margin-left: 30%;
+    margin-top: 1%;
+    color: black;
+}
+
+.list {
+    margin-right: 5%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.border1 {
+    border: 6px solid #585858;
+    background: #585858;
+    height: 140px;
+    width: 170px;
+}
+
+.img {
+    margin-left: 20px;
+}
+
+.border2 {
+    border: 6px solid #BDBDBD;
+    background: #BDBDBD;
+    height: 100px;
+    width: 170px;
+}
+
+.num_pokemon_home {
+    margin-left: 60px;
+}
+
+.name_pokemon_home {
+    margin-left: 50px;
+}
+
+.num_pokemon_details {
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.name_pokemon_details {
+    margin-left: 140px;
+    font-size: 30px;
+}
+
+.border1_image {
+    border: 6px solid #585858;
+    background: #585858;
+    height: 300px;
+    width: 400px;
+}
+
+.img_margin {
+    margin-left: 60px;
+}
+
+.border1_details {
+    border: 6px solid #BDBDBD;
+    background: #BDBDBD;
+    height: 100px;
+    width: 400px;
+}
+
+.border_feature {
+    border: 2px solid grey;
+    background: grey;
+    width: 500px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.title1_details {
+    color: black;
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+.text_details {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text_notfound {
+    margin-left: 50%;
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+.container_other {
+    margin-left: 20px;
+}
+
+.title_edit {
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.border_button {
+    margin-top: 10px;
+}
