@@ -7,7 +7,8 @@
 
 ## Launching with docker compose
 
-- docker-compose up -d or docker-compose up
+- docker-compose up -d 
+- docker-compose up
 
 ## Connect to express with docker
 
