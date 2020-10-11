@@ -3,8 +3,6 @@ import cors from 'cors';
 import { error, info, success } from './helpers/display'
 import checkEnv from './helpers/checkEnv'
 import { connect } from './database';
-import Pokemon from "./database/schemas/pokemon";
-import fs from "fs";
 import route from './routes/api'
 
 const app = express();
