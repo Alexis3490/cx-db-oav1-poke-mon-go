@@ -3,7 +3,7 @@
 
 ## Download project
 
-- git clone https://github.com/Alexis3490/cx-db-oav1-poke-mon-go.git
+- `git clone https://github.com/Alexis3490/cx-db-oav1-poke-mon-go.git`
 
 ## Launching with docker compose
 
