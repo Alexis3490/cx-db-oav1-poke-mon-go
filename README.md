@@ -17,7 +17,7 @@
 
 - no parameters in body
 - http://localhost:8080/pokemons (list of all pokemons)
-
+>
 - no parameters in body
 - http://localhost:8080/pokemons/:id (list of pokemons by id)
 - ex: http://localhost:8080/pokemons/1
@@ -44,9 +44,9 @@
 ### All router
 
 - http://localhost/pokemons (list of all pokemon)
-
+>
 - http://localhost/pokemons/:id (details of pokemon by id)
 - ex: http://localhost:8080/pokemons/1
-
+>
 - http://localhost/pokemons/edit/:id (modified details of pokemon by id)
 - ex: http://localhost:8080/pokemons/edit/1
