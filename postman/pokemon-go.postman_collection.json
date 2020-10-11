@@ -63,7 +63,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"gen\" : 1,\n    \"candy_count\": 25,\n    \"canddy\": \"candy\"\n}",
+					"raw": "{\n    \"gen\" : 2,\n    \"candy_count\": 30,\n    \"candy\": \"candy\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
