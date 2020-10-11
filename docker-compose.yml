@@ -7,7 +7,6 @@ services:
       - '80:80'
     depends_on:
       - api
-
   api:
     container_name: app-node-container
     build: ./back

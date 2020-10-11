@@ -9,7 +9,6 @@ interface ITestProps {
 
 interface ITestState {
     pokemons: [];
-    data: string;
 }
 
 export default class Pokemon extends React.Component<ITestProps, ITestState> {
@@ -18,7 +17,6 @@ export default class Pokemon extends React.Component<ITestProps, ITestState> {
 
         this.state = {
             pokemons: [],
-            data: ""
         };
     }
 
@@ -26,9 +24,6 @@ export default class Pokemon extends React.Component<ITestProps, ITestState> {
         this.getAllPokemon()
         if (this.state.pokemons.length === 0) {
             this.addAllPokemon()
-            if (this.state.data === "Data inserted Pokemon") {
-                this.getAllPokemon()
-            }
         }
     }
 
@@ -53,7 +48,10 @@ export default class Pokemon extends React.Component<ITestProps, ITestState> {
 
         fetch("http://localhost:8080/pokemons", requestOptions)
             .then(response => response.text())
-            .then(result => this.setState({data: result}))
+            .then(result =>
+            {
+                this.getAllPokemon()
+            })
             .catch(error => console.log('error', error));
     }
 

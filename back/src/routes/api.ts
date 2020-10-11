@@ -12,7 +12,6 @@ app.use(express.urlencoded());
 app.get('/pokemons', async (req, res) => {
     const pokemon = await Pokemon.find({});
     res.json(pokemon);
-
 });
 
 app.get('/pokemons/:id', async (req, res) => {
