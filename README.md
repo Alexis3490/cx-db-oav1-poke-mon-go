@@ -20,6 +20,7 @@
 
 - no parameters in body
 - http://localhost:8080/pokemons/:id (list of pokemons by id)
+- ex: http://localhost:8080/pokemons/1
 
 #### Route with the POST Method
 
@@ -30,11 +31,13 @@
 
 - no parameters in body
 - http://localhost:8080/pokemons/:id (delete of pokemon by id)
+- ex: http://localhost:8080/pokemons/1
 
 #### Route with the PUT Method
 
 - parameters are information want to modify with pokemon
 - http://localhost:8080/pokemons/:id (modify of pokemon by id)
+- ex: http://localhost:8080/pokemons/1
 
 ## Connection to react with docker 
 
@@ -43,5 +46,7 @@
 - http://localhost/pokemons (list of all pokemon)
 
 - http://localhost/pokemons/:id (details of pokemon by id)
+- ex: http://localhost:8080/pokemons/1
 
 - http://localhost/pokemons/edit/:id (modified details of pokemon by id)
+- ex: http://localhost:8080/pokemons/edit/1
